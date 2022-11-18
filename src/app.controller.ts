@@ -2,7 +2,7 @@ import { Body, Controller, Get } from '@nestjs/common';
 
 
 @Controller()
-export class BuildingsController {
+export class AppController {
   constructor() {
   }
 
