@@ -3,3 +3,7 @@ export class BuildingDto {
   type: string;
   searchTerm: string;
 }
+
+export class BuildingEmailDto {
+  hmtl: string
+}

@@ -11,4 +11,9 @@ export class BuildingsController {
   getHouses(@Body() dto:BuildingDto) {
     return this.buildingsService.getHouses(dto)
   }
+
+  @Post('/sendemail')
+  sendEmail(@Body() body: {html:string}){
+    return this.buildingsService.sendEmail(body.html)
+  }
 }
